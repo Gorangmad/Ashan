@@ -749,6 +749,18 @@ body.nav-active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
+
+.small-picture {
+  position: absolute;
+  top: 10px;  /* Adjust the value to your preference */
+  right: 10px;  /* Adjust the value to your preference */
+  width: 200px;  /* Adjust the size as needed */
+  height: auto;
+  z-index: 10;
+  margin-top: 50px;
+}
+
+
 .hero .slider-btn { display: none; }
 
 .hero {
@@ -925,6 +937,7 @@ body.nav-active { overflow: hidden; }
 
 
 .about .section-text { margin-block: 15px 30px; }
+
 
 .about .btn {
   margin-inline: auto;
